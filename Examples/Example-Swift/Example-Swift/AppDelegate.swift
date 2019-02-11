@@ -16,8 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, LiveChatDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        LiveChat.licenseId = "1520" // Set your licence number here
-        LiveChat.groupId = "88" // Optionally, you can set specific group
+        LiveChat.licenseId = "100015021" // Set your licence number here
+        LiveChat.groupId = "0" // Optionally, you can set specific group
         LiveChat.name = "iOS Widget Example" // User name and email can be provided if known
         LiveChat.email = "example@livechatinc.com"
         
