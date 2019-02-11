@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, LiveChatDelegate {
         
         LiveChat.licenseId = "100015021" // Set your licence number here
         LiveChat.groupId = "0" // Optionally, you can set specific group
-        LiveChat.name = "iOS Widget Example" // User name and email can be provided if known
-        LiveChat.email = "example@livechatinc.com"
+        LiveChat.name = "iOS wojciech" // User name and email can be provided if known
+        LiveChat.email = "w.lyskawa+test_widget@livechatinc.com"
         
         // Setting some custom variables:
         LiveChat.setVariable(withKey:"First variable name", value:"Some value")
